@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Event Registration</title>
+  <title> Registration</title>
 </head>
 <body>
-  <h2>Register for Event</h2>
+  <h2>Register</h2>
   <form action="submit.php" method="post">
     <input type="text" name="name" placeholder="Full Name" required><br><br>
     <input type="email" name="email" placeholder="Email" required><br><br>
