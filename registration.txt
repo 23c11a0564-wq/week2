@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Registration</title>
+</head>
+<body>
+  <h2>Register for Event</h2>
+  <form action="submit.php" method="post">
+    <input type="text" name="name" placeholder="Full Name" required><br><br>
+    <input type="email" name="email" placeholder="Email" required><br><br>
+    <input type="tel" name="phone" placeholder="Phone"><br><br>
+    <select name="event" required>
+      <option value="">Select Event</option>
+      <option value="workshop">Workshop</option>
+      <option value="seminar">Seminar</option>
+    </select><br><br>
+    <textarea name="comments" placeholder="Comments"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
